@@ -3,103 +3,227 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WEBSITE CEcyMagic</title>
+
+    <link rel="icon" href="LogoCecyMagic.jpeg" type="image/jpeg">
+
+    <title>Iglesias de Valle de Bravo</title>
+
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
+        body {
+            background-color: #f5f5f5;
+        }
+
+        h1 {
+            color: #660000;
+        }
+
+        h2 {
+            color: #333333;
+        }
+
+        p {
+            color: #0d59cc;
+            text-align: justify;
+            font-family: Arial, sans-serif;
+        }
+
         .card-img-top {
-            height: 400px;
+            height: 220px;
+            width: 90%;
             object-fit: cover;
+            margin: auto;
+            display: block;
+            border-radius: 5px;
         }
 
         .card {
-            height: 100%;
+            height: auto;
+            border: none;
+            margin-bottom: 20px;
         }
-        h1{
-            color:#660000;  
+
+        .card-title {
+            color: #660000;
+            font-weight: bold;
         }
-        p {
-    color: #0d59cc;
-    text-align: justify;
-    font-family: Arial, sans-serif;
-     }
-     card-img-top {
-    width: 80%;
-    height: 200px;
-    object-fit: cover;
-    margin: auto;
-    display: block;
-}
     </style>
-</head>  
+</head>
 
 <body>
+
+    <!-- ENCABEZADO -->
     <div class="container text-center my-5">
-      
-        <h1>“Festividades"</h1>
-        <H2></H2>
-    
+
+        <h1>Iglesias</h1>
+
+        <h2>de Valle de Bravo</h2>
+
     </div>
-    
+
+
+    <!-- CONTENIDO PRINCIPAL -->
     <div class="container my-5">
-    <div class="row g-4 align-items-stretch"> 
-        
-        <div class="col-md-6">
-            <div class="card h-100 shadow"> 
-                <div class="card-body text-center">
-                 <h5 class="card-title">
-                    Iglesia Santa Maria</h5>
-                <img src="imgvall.jpeg"
-                 class="card-img-top"
-                    alt="Imagen 1"
-                    style="width: 80%; height: 200px; object-fit: cover;">
-    
-                        <p class="card-text">
-                         Es una iglesia construida principalmente de piedra, cuenta con dos torres, una gran puerta de madera y una fachada muy bonita. ."</p>
-                            <p> Es una iglesia construida principalmente de piedra, cuenta con dos torres, una gran puerta de madera y una fachada muy bonita."</p>
-        
-               <h5 class="card-title">
-</h5>
-               <img src="imgvall1.jpeg"
-                class="card-img-top"
-                 alt="Imagen 1"
-                   style="width: 80%; height: 200px; object-fit: cover;">
-            
-                   
-                   <p class="card-text">   
-                       Es una iglesia con grandes arcos, techos altos y bancas de madera. También tiene flores de color naranja que adornan el lugar."</p>
-                            <p> Es un espacio importante para la comunidad, donde se llevan a cabo misas y celebraciones religiosas."</p>
-             
-          
-               <h5 class="card-title">
-              Iglesia de Cuadrilla de Dolores</h5>
-               <img src="imgcua.jpeg"
-                class="card-img-top"
-                 alt="Imagen 1"
-                   style="width: 80%; height: 200px; object-fit: cover;">
-        
-                        <p class="card-text">
-                        Cuenta con grandes columnas, arcos y bancas de madera que adornan todo el lugar. Al fondo se encuentra el altar con diferentes pinturas religiosas y lámparas que iluminan el interior. Es un espacio tranquilo donde se realizan celebraciones religiosas."</p>
-                                         
-                  </div>
+
+        <div class="row g-4">
+
+            <!-- COLUMNA IZQUIERDA -->
+            <div class="col-md-6">
+
+                <!-- IMAGEN 1 -->
+                <div class="card shadow mb-4">
+
+                    <div class="card-body text-center">
+
+                        <h5 class="card-title">
+                            PARROQUIA DE SAN FRANCISCO DE ASÍS
+                        </h5>
+
+                        <img src="imgvall.jpeg"
+                             class="card-img-top mb-3"
+                             alt="Parroquia de San Francisco de Asís">
+
+                        <p>
+                            La Parroquia de San Francisco de Asís es
+                            uno de los edificios religiosos más
+                            representativos de Valle de Bravo. Se
+                            encuentra en el centro del municipio y
+                            destaca por su arquitectura y su
+                            importancia histórica y cultural.
+                        </p>
+
+                        <p>
+                            Este templo está dedicado a San Francisco
+                            de Asís y es un lugar importante para
+                            las celebraciones religiosas de la
+                            comunidad. También forma parte del
+                            patrimonio arquitectónico del municipio
+                            y es uno de los sitios que visitan
+                            quienes recorren el centro histórico.
+                        </p>
+
+                    </div>
+                </div>
+
+
+                <!-- IMAGEN 2 -->
+                <div class="card shadow mb-4">
+
+                    <div class="card-body text-center">
+
+                        <h5 class="card-title">
+                            ARQUITECTURA DE LA PARROQUIA
+                        </h5>
+
+                        <img src="imgcua.jpeg"
+                             class="card-img-top mb-3"
+                             alt="Arquitectura de la parroquia">
+
+                        <p>
+                            La parroquia destaca por sus características
+                            arquitectónicas, sus detalles y su
+                            construcción, que reflejan parte de la
+                            historia religiosa de Valle de Bravo.
+                            Su ubicación en el centro permite que
+                            sea un punto de referencia para los
+                            habitantes y visitantes.
+                        </p>
+
+                        <p>
+                            Además de su función religiosa, este
+                            edificio representa una parte importante
+                            de la identidad cultural del municipio.
+                            Su presencia forma parte del paisaje
+                            tradicional y de los atractivos
+                            históricos de Valle de Bravo.
+                        </p>
+
+                    </div>
+                </div>
+
             </div>
-        </div>
-        
-        
-   <div class="col-md-6">
-    <div class="card h-100 shadow">
 
-        <video controls width="100%">
-            <source src="videotradi.mp4" type="video/mp4">
-        </video>
 
-        <div class="card-body text-center">
-            <h5 class="card-title">
-                <a href="https://vt.tiktok.com/ZSsYBwTxT/" target="_blank">
-                    Ver En TikTok </a>
-            </h5>
+            <!-- COLUMNA DERECHA -->
+            <div class="col-md-6">
+
+                <!-- IMAGEN 3 -->
+                <div class="card shadow mb-4">
+
+                    <div class="card-body text-center">
+
+                        <h5 class="card-title">
+                            CAPILLA DE SANTA MARÍA AHUACATLÁN
+                        </h5>
+
+                        <img src="A5.jpeg"
+                             class="card-img-top mb-3"
+                             alt="Capilla de Santa María Ahuacatlán">
+
+                        <p>
+                            La Capilla de Santa María Ahuacatlán es
+                            uno de los espacios religiosos más
+                            conocidos de Valle de Bravo. Este templo
+                            tiene una gran importancia para la
+                            comunidad debido a su historia y a las
+                            tradiciones religiosas que se mantienen
+                            en este lugar.
+                        </p>
+
+                        <p>
+                            Es reconocida por albergar la imagen
+                            del Cristo Negro, que representa un
+                            símbolo de devoción para numerosos
+                            habitantes y visitantes. Por ello,
+                            esta capilla es un sitio de interés
+                            religioso y cultural.
+                        </p>
+
+                    </div>
+                </div>
+
+
+                <!-- IMAGEN 4 -->
+                <div class="card shadow mb-4">
+
+                    <div class="card-body text-center">
+
+                        <h5 class="card-title">
+                            EL CRISTO NEGRO
+                        </h5>
+
+                        <img src="imgcr.jpeg"
+                             class="card-img-top mb-3"
+                             alt="Cristo Negro de Santa María Ahuacatlán">
+
+                        <p>
+                            El Cristo Negro es una de las imágenes
+                            religiosas más representativas de
+                            Santa María Ahuacatlán. Es reconocido
+                            por la devoción que despierta entre
+                            los fieles y por formar parte de las
+                            tradiciones religiosas de Valle de Bravo.
+                        </p>
+
+                        <p>
+                            Su presencia convierte a la capilla
+                            en un importante lugar de visita para
+                            personas que desean conocer las
+                            expresiones de fe, las costumbres
+                            y el patrimonio religioso de este
+                            municipio del Estado de México.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+
         </div>
 
     </div>
-</div>
+
 </body>
+</html>
